@@ -1,6 +1,8 @@
 <template>
   {{ countStore.count }}
   <hr>
+  {{ countStore.count2 }}
+  <hr>
   {{ countStore.doubleCount }}
   <hr>
   <button @click="countStore.increment">increment</button>
